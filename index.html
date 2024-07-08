@@ -22,13 +22,34 @@
     <meta property="og:image" content="./static/img/social-card.png">
 
     <link rel="icon" type="image/webp" href="./static/img/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./static/css/style.css">
   </head>
-  
-  <body>
-    <a class="circle github" href="https://github.com/Fearlesstboss"></a>
-    <a class="circle discord" href="https://discord.com/invite/AuMkaszRCz"></a>
-    <a class="circle youtube" href="https://youtube.com/@UrubuHost"></a>
-    <a class="circle mail" href="mailto:me@fear.solutions"></a>
+  <body class="font-sans min-h-screen antialiased">
+    <div class="min-h-screen flex flex-col gap-y-8 justify-center items-center">
+      <!-- Socials -->
+      <div class="flex gap-x-6 sm:gap-x-8">
+        <a class="flex p-3 sm:p-4 rounded-full bg-white" href="https://github.com/Fearlesstboss">
+          <img class="w-6 h-6 sm:w-8 sm:h-8" src="./static/img/icon/github.png" alt="GitHub">
+        </a>
+        <a class="flex p-3 sm:p-4 rounded-full bg-white" href="https://discord.com/invite/AuMkaszRCz">
+          <img class="w-6 h-6 sm:w-8 sm:h-8" src="./static/img/icon/discord.png" alt="Discord">
+        </a>
+        <a class="flex p-3 sm:p-4 rounded-full bg-white" href="https://youtube.com/@UrubuHost">
+          <img class="w-6 h-6 sm:w-8 sm:h-8" src="./static/img/icon/youtube.png" alt="YouTube">
+        </a>
+        <a class="flex p-3 sm:p-4 rounded-full bg-white" href="mailto:me@fear.solutions">
+          <img class="w-6 h-6 sm:w-8 sm:h-8" src="./static/img/icon/mail.png" alt="Mail">
+        </a>
+      </div>
+      <!-- Slogan -->
+      <p class="text-base sm:text-xl">
+        A melhor maneira de prever o futuro é inventá-lo.
+      </p>
+    </div>
   </body>
 </html>

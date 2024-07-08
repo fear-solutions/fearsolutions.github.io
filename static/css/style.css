@@ -1,47 +1,94 @@
-body {
-  background-color: #00071a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+* {
   margin: 0;
+  box-sizing: border-box;
 }
-.container {
+
+body {
+  color: #fff;
+  background-color: #00071a;
+}
+
+.font-sans {
+  font-family: Raleway, sans-serif;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-xl {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+
+.flex {
   display: flex;
+}
+
+.flex-col {
   flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
   align-items: center;
 }
-.circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: #fff;
-  margin: 20px;
-  display: inline-block;
+
+.gap-y-8 {
+  row-gap: 2rem; /* 32px */
 }
 
-.discord {
-  background-image: url('../img/icon/discord.png');
-  background-size: 50px 50px;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.github {
-  background-image: url('../img/icon/github.png');
-  background-size: 50px 50px;
-  background-position: center;
-  background-repeat: no-repeat;
+.gap-x-6 {
+  column-gap: 1.5rem; /* 24px */
 }
 
-.youtube {
-  background-image: url('../img/icon/youtube.png');
-  background-size: 50px 50px;
-  background-position: center;
-  background-repeat: no-repeat;
+.rounded-full {
+  border-radius: 9999px;
 }
-.mail {
-  background-image : url('../img/icon/mail.png');
-  background-size: 50px 50px;
-  background-position: center;
-  background-repeat: no-repeat;
+
+.p-3 {
+  padding: 0.75rem; /* 12px */
+}
+
+.w-6 {
+  width: 1.5rem; /* 24px */
+}
+
+.h-6 {
+  height: 1.5rem; /* 24px */
+}
+
+@media (min-width: 640px) {
+  .sm\:text-xl {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+  }
+
+  .sm\:gap-x-8 {
+    column-gap: 2rem; /* 32px */
+  }
+
+  .sm\:p-4 {
+    padding: 1rem; /* 16px */
+  }
+
+  .sm\:w-8 {
+    width: 2rem; /* 32px */
+  }
+  
+  .sm\:h-8 {
+    height: 2rem; /* 32px */
+  }
 }
