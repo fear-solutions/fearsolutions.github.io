@@ -21,26 +21,26 @@ body {
 }
 
 .discord {
-  background-image: url('static/img/icon/discord.png');
+  background-image: url('../img/icon/discord.png');
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .github {
-  background-image: url('static/img/icon/github.png');
+  background-image: url('../img/icon/github.png');
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .youtube {
-  background-image: url('static/img/icon/youtube.png');
+  background-image: url('../img/icon/youtube.png');
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .mail {
-  background-image : url('static/img/icon/mail.png');
+  background-image : url('../img/icon/mail.png');
   background-size: 50px 50px;
   background-position: center;
   background-repeat: no-repeat;
