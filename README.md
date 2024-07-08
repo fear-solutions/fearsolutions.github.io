@@ -1,1 +1,1 @@
-- a simple website made with much love and IA :3
+“A melhor maneira de prever o futuro, é inventá-lo.” ~Desconhecido
