@@ -1,0 +1,47 @@
+body {
+  background-color: #00071a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 20px;
+  display: inline-block;
+}
+
+.discord {
+  background-image: url('static/img/icon/discord.png');
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.github {
+  background-image: url('static/img/icon/github.png');
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.youtube {
+  background-image: url('static/img/icon/youtube.png');
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mail {
+  background-image : url('static/img/icon/mail.png');
+  background-size: 50px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
